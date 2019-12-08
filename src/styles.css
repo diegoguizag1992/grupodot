@@ -164,7 +164,6 @@ li.dropdown {
 .text{
 margin: -30px 0px 30px 0px;
 padding: 40px;
-background: rgba(0,0,0,0.5);
 display: inline-block;
 transform: translate(-10%, -232%);
 }
@@ -255,7 +254,7 @@ transform: translate(-10%, -232%);
 .textDos{
   margin: -30px 0px 30px 0px;
   padding: 40px;
-  background: rgba(0,0,0,0.5);
+  /* background: rgba(0,0,0,0.5); */
   display: inline-block;
   transform: translate(-5%, -132%);
 }

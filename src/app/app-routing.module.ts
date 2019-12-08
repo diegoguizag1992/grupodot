@@ -5,6 +5,8 @@ import { PaginaPrincipalComponent } from './components/pagina-principal/pagina-p
 
 const routes: Routes = [
   { path: 'principal', component: PaginaPrincipalComponent},
+  { path: '**', redirectTo: 'principal' },
+
 ];
 
 @NgModule({
